@@ -3,5 +3,6 @@ class PagesController < ApplicationController
   end
 
   def submit
+    render layout: false
   end
 end
